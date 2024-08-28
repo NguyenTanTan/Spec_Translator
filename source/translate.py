@@ -15,7 +15,6 @@ import pandas as pd
 # from googletrans import Translator, constants
 import io
 import re
-input()
 spacy_en = spacy.load('en_core_web_sm')
 eos = '<eos>'
 bos = '<bos>'
